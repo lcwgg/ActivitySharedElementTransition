@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Exclude the status bar and the navigation bar from the animation -->
+    <targets>
+        <target android:excludeId="@android:id/statusBarBackground" />
+        <target android:excludeId="@android:id/navigationBarBackground" />
+    </targets>
+    <changeBounds>
+        <arcMotion
+            android:maximumAngle="90"
+            android:minimumHorizontalAngle="15"
+            android:minimumVerticalAngle="0" />
+    </changeBounds>
+</transitionSet>
