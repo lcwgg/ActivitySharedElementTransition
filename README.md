@@ -54,7 +54,7 @@ This transition can also be achieved by combining `changeBound` and `changeImage
 <changeBounds/>
 <changeImageTransform />
 ```
-// image
+![Demo](images/githubactivitysharedtransitionscale.gif)
 
 `changeImageTransform` is coupled with `changeBound` to have the correct bound animation or all animation starts from top left corner of the screen, which is not wanted in a list. Of course, `changeBound` is not needed if the transition is a single animation that needs to start from the top left cornerof the screen.
 
@@ -68,7 +68,7 @@ or by defining the `autoTransition`:
 ```xml
 <autoTransition/>
 ```
-// image
+![Demo](images/githubactivitysharedtransitionslide.gif)
 
 `changeTransform` is coupled with `changeBound` to have the correct bound animation or the image only appears as if it was a mere fade transition. 
 
@@ -76,5 +76,5 @@ or by defining the `autoTransition`:
 You can customized the transition with all the predefined option like `arcMotion`, `pathMotion`, `recolor`.
 Here is an example with `arcMotion`
 
-// image
+![Demo](images/githubactivitysharedtransitioncustom.gif)
 
