@@ -28,7 +28,8 @@ public class SingleImageActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // enable the shared element transition
+        // enable the shared element transition (only if theme different from Theme.Material)
+//        getWindow().requestFeature(Window.FEATURE_ACTIVITY_TRANSITIONS);
 //        getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);
 
         // Examples of transition

@@ -11,9 +11,9 @@
         <item name="android:colorAccent">@color/accent</item>
         <item name="android:windowBackground">@color/background</item>
 
-        <!-- enable window content transitions -->
-        <item name="android:windowActivityTransitions">true</item>
-        <item name="android:windowContentTransitions">true</item>
+        <!-- enable window content transitions (only if theme different from Theme.Material) -->
+        <!--<item name="android:windowActivityTransitions">true</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
 
         <item name="android:windowEnterTransition">@transition/explode</item>
         <item name="android:windowExitTransition">@transition/explode</item>

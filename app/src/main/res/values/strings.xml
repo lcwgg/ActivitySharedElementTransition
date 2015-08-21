@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">ActivityTransition</string>
     <string name="transition_name">transition</string>
+    <string name="single_image">Transition with a single element</string>
+    <string name="fragment">Transition with a fragment contained in the target activity</string>
 </resources>
